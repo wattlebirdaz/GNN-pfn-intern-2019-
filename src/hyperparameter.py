@@ -30,10 +30,10 @@ class HP:
         print("	validation rate: {}".format(self.vr))
         print("	sgd type: {}".format(self.sgdtype))
         if (self.sgdtype == "momentum"):
-            print(" momentum: {}".format(self.beta))
+            print("	momentum: {}".format(self.beta))
         elif (self.sgdtype == "adam"):
-            print(" beta1: {}".format(self.beta))
-            print(" beta2: {}".format(self.beta2))
+            print("	beta1: {}".format(self.beta))
+            print("	beta2: {}".format(self.beta2))
         print("	modify graph: {}".format(self.mg))
 
         

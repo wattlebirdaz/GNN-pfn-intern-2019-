@@ -6,11 +6,11 @@ from train import SGD
 
 def tickfunction(ts, vr, bs, ep):
     newticklocation = np.arange(0, ts*(1-vr)*ep/bs, ts*(1-vr)/bs)
-    newticklabels = [x/(ts*(1-vr)/bs) for x in newticklocation]
+    newticklabels = [int(x/(ts*(1-vr)/bs)) for x in newticklocation]
     return newticklocation, newticklabels
             
 if __name__ == '__main__':
-    hp = HP(d=8, lr=0.00015, epoch=2, batchsize=100, sgdtype="adam", modifygraph=0)
+    hp = HP(d=8, lr=0.00012, epoch=40, batchsize=100, sgdtype="normal sgd", modifygraph=0)
     theta = THETA(hp)
     sgd = SGD(theta)
     sgd.train()

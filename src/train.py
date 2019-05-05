@@ -153,5 +153,5 @@ class SGD:
             
             self.testresult.append(gnn.predicty)
             
-        np.savetxt("result.txt", self.testresult, delimiter="\n", fmt='%i')
+        np.savetxt("prediction.txt", self.testresult, delimiter="\n", fmt='%i')
 

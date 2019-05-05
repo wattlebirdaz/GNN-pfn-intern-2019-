@@ -1,0 +1,9 @@
+[submodule "hugo-coder-portfolio"]
+	path = hugo-coder-portfolio
+	url = git@github.com:wattlebirdaz/hugo-coder-portfolio.git
+[submodule "deep-learning-from-scratch"]
+	path = deep-learning-from-scratch
+	url = git@github.com:oreilly-japan/deep-learning-from-scratch.git
+[submodule "Deep-Reinforcement-Learning-Book"]
+	path = Deep-Reinforcement-Learning-Book
+	url = git@github.com:YutaroOgawa/Deep-Reinforcement-Learning-Book.git

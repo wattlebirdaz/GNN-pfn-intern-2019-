@@ -32,3 +32,7 @@ You can set various parameters by modifying _line 13_ of the `src/main.py`.
 `hp = HP(d=8, lr=0.00015, epoch=2, batchsize=100, sgdtype="adam", modifygraph=0)`
 
 This means that the dimention is 8, learning rate is 0.00015, number of epoch is 2, batch size is 100, update type is adam, and it does not allow graph modify option
+
+
+## Test
+Testing for Problem1 (fuctionality of gnn) can be run by `python3 test.py`. This will run three unit tests.

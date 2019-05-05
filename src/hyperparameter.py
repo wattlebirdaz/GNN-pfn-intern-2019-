@@ -22,20 +22,20 @@ class HP:
         print("	step: {}".format(self.step))
         print("	dimention: {}".format(self.d))
         print("	learning rate: {}".format(self.lr))
+        print("	epsilon: {}".format(self.epsilon))
+        print("	number of epochs {}". format(self.epoch))
+        print("	training set size (including the validation set): {}".format(self.trainsize))
+        print("	batch size: {}".format(self.batchsize))
+        print("	test set size: {}".format(self.testsize))
+        print("	validation rate: {}".format(self.vr))
+        print("	sgd type: {}".format(self.sgdtype))
         if (self.sgdtype == "momentum"):
             print(" momentum: {}".format(self.beta))
         elif (self.sgdtype == "adam"):
             print(" beta1: {}".format(self.beta))
             print(" beta2: {}".format(self.beta2))
-        print("	epsilon: {}".format(self.epsilon))
-        print("	number of epochs {}". format(self.epoch))
-        print("	training set size (including the validation set): {}".format(self.trainsize))
-        print("	batch size: {}".format(self.batchsize))
-        print("	validation rate {}".format(self.vr))
-        print("	test set size: {}".format(self.testsize))
-        print("	sgd type: {}".format(self.sgdtype))
         print("	modify graph: {}".format(self.mg))
-        print("	validation rate: {}".format(self.vr))
+
         
         
 

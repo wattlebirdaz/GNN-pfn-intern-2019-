@@ -1,5 +1,5 @@
 # GNN
-Implementation of Graph Neural Network for PFN internship application assignment
+Implementation of Graph Neural Network for PFN internship __application__ assignment
 
 ## Usage
 Put the `datasets/` and the `src/` in the same level of the directory.
